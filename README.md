@@ -7,7 +7,22 @@ The dataset is extracted from :
 
 The code used to complete the assignment is named ``` run_analysis.r ```
 
+The code flow is the following: 
+* Merges training sets for test and train into one
+* Separate the variables having mean and std
+* Modify variable names to be more descriptive
+* Lavel the data sets
+* From the above step create a tidy data set
+
+
 ``` run_analysis.r ``` contains all the codes and it will perform all the steps required after which it will generate 
 a new tidy data called ``` TidyData.txt ```
 
 This data is then uploaded to the Github account# GettingAndCleaningData
+
+There are several files in this repo: 
+
+1. run_analysis.R --> Code/script 
+2. README.md --> Description of this repo
+3. CodeBook.md --> Showing the variables/units (if any) etc
+4. TidyData.txt --> a tidy data set generated at the end of the program.
